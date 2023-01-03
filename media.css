@@ -1,0 +1,364 @@
+@media all and (max-width: 1368px) {
+  .infoContainer {
+    min-height: 50%;
+  }
+  .tours {
+    font-size: 54px;
+  }
+  .brandNameHeader {
+    font-size: 64px;
+  }
+  .infoSection {
+    font-size: 22px;
+    padding: 20px 65px;
+    line-height: 26px;
+  }
+  .spanMore {
+    font-size: 24px;
+  }
+
+  .calculateSection {
+    margin: 50px 150px;
+  }
+  #calculationHeader {
+    font-size: 42px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .brandNameHeader {
+    font-size: 54px;
+  }
+  .mainCaption {
+    font-size: 44px;
+    margin: 0px;
+  }
+  .mainCaptionTwo {
+    font-size: 36px;
+  }
+  .infoSection {
+    font-size: 20px;
+    padding: 10px 40px;
+    line-height: 20px;
+  }
+  .spanMore {
+    font-size: 20px;
+  }
+  .tours {
+    font-size: 42px;
+  }
+  .calculateSection {
+    margin: 50px 80px;
+  }
+  #calculationHeader {
+    font-size: 36px;
+  }
+  .imgCarousel {
+    width: 60%;
+    height: 340px;
+  }
+  .address-section {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  .footItem {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .icon-footer {
+    font-size: 28px;
+  }
+}
+
+
+@media all and (max-width: 850px) {
+   .brandNameHeader {
+    display: none;
+  }
+  .mainCaption {
+    font-size: 40px;
+     margin-top: 20px;
+  }
+  .mainCaptionTwo {
+    font-size: 34px;
+
+  }
+  .infoSection {
+    font-size: 18px;
+    padding: 10px 30px;
+    line-height: 20px;
+  }
+  .tours {
+    font-size: 38px;
+  }
+  .containerPhoto {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .calculateSection {
+    margin: 20px;
+    padding: 20px;
+  }
+  #calculationHeader {
+    font-size: 30px;
+  }
+  #tour,
+  #addPeople,
+  #addDays {
+    font-size: 15px;
+    font-weight: 600;
+    width: 300px;
+  }
+  .carousel {
+    margin: 20px;
+  }
+  .imgCarousel {
+    width: 70%;
+    height: 200px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .carousel-control-next-icon {
+    margin-left: 20px;
+  }
+  .carousel-control-prev-icon {
+    margin-right: 20px;
+  }
+  #btnCalculate,
+  .btnSend {
+    font-size: 20px;
+  }
+  .clicked h4,
+  .clicked .price,
+  .clicked .description {
+    font-size: 20px;
+  }
+  label {
+    font-size: smaller;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .imgCarousel {
+    width: 60%;
+    height: 260px;
+  }
+  .containerFooter {
+    padding: 15px;
+    margin: 10px 0px 0px;
+  }
+  .footerSection {
+    padding-top: 10px;
+  }
+  .footer-row {
+    margin-top: 5px;
+  }
+  .address-section {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  .footItem {
+    font-size: 14px;
+  }
+  .aboutUsMain {
+    font-size: 38px;
+  }
+  .aboutUsDescription {
+    font-size: 16px;
+  }
+  .par {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 767px) {
+  .mainCaption {
+    font-size: 26px;
+  }
+  .mainCaptionTwo {
+    font-size: 20px;
+  }
+  .infoSection {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .spanMore {
+    font-size: 18px;
+    margin: 0;
+  }
+  .tours {
+    font-size: 32px;
+  }
+
+  #calculationHeader {
+    font-size: 25px;
+    text-align: center;
+  }
+  #tour,
+  #addPeople,
+  #addDays {
+    font-size: 14px;
+    font-weight: 600;
+    width: 230px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  #tourPrice,
+  #totalTourPrice {
+    font-size: 16px;
+  }
+  .priceIncludes,
+  .itinerary {
+    font-size: 16px;
+  }
+  .imgCarousel {
+    width: 68%;
+    height: 230px;
+  }
+  .address-section {
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  .footItem {
+    font-size: 14px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .icon-footer {
+    font-size: 20px;
+  }
+  .clicked h4 {
+    font-size: 16px;
+    transition: all 0.7s ease-in;
+  }
+  .clicked .description {
+    font-size: 13px;
+    transition: all 0.7s ease-in;
+  }
+  .clicked .price {
+    font-size: 16px;
+    transition: all 0.7s ease-in;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 555px) {
+  .mainCaption {
+    font-size: 30px;
+    text-shadow: 3px 3px rgb(12, 12, 12), 1px 1px #012c29;
+  }
+  .mainCaptionTwo {
+    font-size: 24px;
+    text-shadow: 3px 3px rgb(9, 9, 9), 1px 1px #012c29;
+  }
+  .infoSection{
+    font-size: 16px;
+    line-height: 17px;
+    text-shadow: 1px 1px 1px 1px rgb(9, 9, 9), 1px 1px #012c29;
+  }
+  #myVideo{
+    display: none
+  }
+  .coverImage{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+  }
+}
+@media all and (max-width: 420px) {
+  .brandName {
+    font-size: 24px;
+  }
+  .mainCaption {
+    font-size: 26px;
+  }
+  .mainCaptionTwo {
+    font-size: 24px;
+  }
+  .tours {
+    font-size: 28px;
+  }
+
+  #calculationHeader {
+    font-size: 18px;
+  }
+  #tour,
+  #addPeople,
+  #addDays,
+  .priceIncludes,
+  .itinerary,
+  h5 {
+    font-size: 14px;
+  }
+  h3,
+  #totalPrice,
+  #tourPricePerPerson,
+  label {
+    font-size: 16px;
+  }
+
+  #btnCalculate,
+  .btnSend {
+    font-size: 18px;
+  }
+  .footItem {
+    margin: 5px;
+  }
+  .footItem {
+    font-size: 12px;
+  }
+  .aboutUsDescription {
+    font-size: 14px;
+  }
+  .aboutUsMain {
+    font-size: 30px;
+  }
+  .par {
+    font-size: 20px;
+  }
+}
+@media (min-width: 265px) and (max-width: 350px) {
+  .brandName {
+    font-size: 20px;
+  }
+  .navbar-brand {
+    width: 36px;
+  }
+  .mainCaption {
+    font-size: 22px;
+  }
+  .mainCaptionTwo {
+    font-size: 20px;
+  }
+
+  .tours {
+    font-size: 22px;
+  }
+  .clicked h4 {
+    font-size: 14px;
+    transition: all 0.7s ease-in;
+  }
+  .clicked .description {
+    font-size: 11px;
+    transition: all 0.7s ease-in;
+  }
+  .clicked .price {
+    font-size: 14px;
+    transition: all 0.7s ease-in;
+    font-weight: bold;
+  }
+  .imgCarousel {
+    width: 72%;
+    height: 140px;
+  }
+  .footItem {
+    margin: 0;
+  }
+}

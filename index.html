@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greentrails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cormorant+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/856ea42869.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+    <nav class="navbar  navbar-expand-lg navbar-light">
+      <div class="container-fluid ">
+        <img class="navbar-brand" src="images/Slice 2.png"></img>
+        <span class="brandName">GreenTrails</span>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- navbar links--> 
+
+    <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active h5 fw-bold" aria-current="page" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5 fw-bold" href="#toursSection">Tours</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5 fw-bold" href="#pricing">Prices</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5 fw-bold" href="https://en.wikipedia.org/wiki/Kyrgyzstan" target="_blank">About Kyrgyzstan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h5 fw-bold" href="#footer">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+    <section id="firstPage" class="infoContainer">
+   
+       <video autoplay loop muted defaultMuted playsinline id="myVideo" poster="./images/image7.jpg">
+        <source src="images//Forest - 9796.mp4" type="video/mp4">
+     </video>
+     <img src="./images/image13.jpg" alt="image of Mountains" class="coverImage"/>
+      
+     <div class="hero-titles">
+     <h1 class="brandNameHeader">GreenTrails</h1>
+     
+      <h1 class="mainCaption">Tours to Kyrgyzstan</h1>
+      <h2 class="mainCaptionTwo">Travel with us</h2>
+      <p class="infoSection">Kyrgyzstan is a beautiful Cenral Asian country of incredible natural beauty and proud nomadic traditions. Many travelers choose Kyrgyzstan so they can trek toward the massive glaciers, ski mountains, and immerse themselves in the rich, cultural heritage of the land.
+        <a class="spanMore" href="about.html"><span >More About Kyrgyzstan...</span></a>
+      </p>
+    </div>
+ 
+    </section>
+
+    <section id="toursSection" class="tourSection" >
+      
+ <h1 class="tours">Things to do with us</h1>
+    <div class="containerPhoto">
+     
+      <div class="one item clicked">
+        <h4>Horseback riding tours</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi
+          molestiae impedit
+        </p>
+        <p class="price">From 250$ per person</p>
+      </div>
+
+      <div class="two item">
+        <h4>Hiking</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p class="price">From 190$ per person</p>
+      </div>
+      <div class="three item">
+        <h4>Biking tours</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi
+          molestiae
+        </p>
+        <p class="price">From 290$ per person</p>
+      </div>
+
+      <div class="four item">
+        <h4>Skiing tours</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquid?
+        </p>
+        <p class="price">From 340$ per person</p>
+      </div>
+
+      <div class="five item">
+        <h4>Cultural tours</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nisi
+          molestiae impedit liquid?
+        </p>
+        <p class="price">From 220$ per person</p>
+      </div>
+
+      <div class="six item">
+        <h4>Festivals</h4>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing nisi molestiae
+          impedit nesciunt aliquid?
+        </p>
+        <p class="price">From 185$ per person</p>
+      </div>
+    </div>
+ 
+  </section>
+
+    <section id="pricing">
+    <div class="calculateSection">
+      <form>
+      <h2 id="calculationHeader">Calculate the price for tour</h2>
+      <h3>Tour</h3>
+      <select id="tour">
+        <option disabled>Select an option</option>
+        <option value="250">Horseback riding tour </option>
+        <option value="190">Hiking tour </option>
+        <option value="290">Biking Tour</option>
+        <option value="340">Skiing Tour</option>
+        <option value="220">Cultural Tour</option>
+        <option value="185">Festival</option>
+        </select>
+
+     <h3>Number of days</h3>
+     <span>
+      <select id="addDays">
+        <option disabled>Select number of days</option>
+        <option value="1">1 </option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 </option>
+        <option value="6">6 </option>
+        <option value="7">7 </option>
+        <option value="8">8 </option>
+        <option value="9">9 </option>
+        <option value="10">10 </option>
+        <option value="11">11 </option>
+     </select> </span>
+
+     <h3>Number of people</h3>
+           <select id="addPeople">
+              <option disabled>Select number of people</option>
+              <option value="1">1 </option>
+              <option value="2">2-3</option>
+              <option value="4">4-5</option>
+              <option value="7">6-8</option>
+              <option value="10">9-12 </option>
+           </select>
+
+           <button id="btnCalculate">Calculate</button>
+          </form>
+    
+    
+    <div id="showTotalAmountToPay">
+      <!-- 1 bloc -->
+          <div id="tourPrice">
+              <p>Price</p>
+              <span>$</span>
+              <span id="tourPricePerPerson"></span>
+              <span>per person</span>
+          </div>
+
+          <!-- 2 -->
+          <div id="totalTourPrice">
+              <p>Total price</p>
+              <span>$</span>
+              <span id="totalPrice"></span>
+              <span>for group</span>
+          </div>
+          </div>
+
+        <div class="priceIncludes">
+          <p><span>The price includes:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magni ab libero reiciendis, ut harum.</p>
+          <p><span>The price doesn't include:</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Et fuga eligendi quibusdam.</p>
+        </div>  
+        <div class="itinerary">
+          <p><span>Itinerary: </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate vitae quae, eos perspiciatis, provident eum impedit voluptatibus accusamus eaque quis alias hic, ducimus amet aspernatur excepturi minima molestiae aliquam illum?
+          Minima veritatis eveniet libero! Quaerat totam atque dolor at explicabo ab corrupti eum facilis impedit consequuntur, eos aliquid quis. Accusamus quas debitis asperiores ipsa nesciunt voluptate officiis, mollitia nisi itaque.
+          Sunt ipsum ullam est blanditiis numquam, exercitationem veritatis placeat incidunt explicabo quasi illum aspernatur nam, officia assumenda eos, illo ab similique? Excepturi, assumenda perferendis sed hic ab quisquam optio iusto!</p>
+        </div>
+        </div>
+        </section>
+
+        <section id="gallery">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+              
+              <div class="carousel-item active">
+              <img class="imgCarousel" src="images/image0.jpg" class="d-block w-100" alt="..."><img class="imgCarousel" src="images/untitled-4-1.jpg" class="d-block w-100" alt="...">
+              
+            </div>
+            <div class="carousel-item">
+              <img class="imgCarousel" src="images/image1.jpg" class="d-block w-100" alt="..."><img class="imgCarousel" src="images/image4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img class="imgCarousel" src="images/Fests.jpg" class="d-block w-100" alt="..."> <img class="imgCarousel" src="images/culture_tours.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img class="imgCarousel" src="images/image14.jpg" class="d-block w-100" alt="..."> <img class="imgCarousel" src="images/image15.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img class="imgCarousel" src="images/image16.jpg" class="d-block w-100" alt="..."> <img class="imgCarousel" src="images/image17.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev carouselButton" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next carouselButton" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+  <section id="footer">
+  <div class="containerFooter">
+    <div class="footer">
+      <h2>Send us a message</h2>
+    </div>
+
+    <form action="https://formspree.io/f/xeqvlzew" method="POST">
+            <input type="hidden" name="_language" value="en"/>
+
+      <div class="footer">
+        <label>
+          Your email:
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            class="text-input" required=""
+          />
+        </label>
+      </div>
+
+      <div class="footer">
+        <br />
+        <label>
+          Your message:
+          <textarea
+            name="message"
+            placeholder="Your message"
+            class="text-input" required=""
+          ></textarea>
+        </label>
+      </div>
+      <br />
+
+      <!-- your other form fields go here -->
+      
+        <button class="btnSend" type="submit">Send</button>
+     
+    </form>
+  </div> 
+
+  <div class="container-fluid footerSection">
+    <div class="footerName"> <img class="navbar-brand" src="images/Slice 2.png"></img><span class="brandName">GreenTrails</span>
+      </div>
+   
+    <div class="row footer-row">
+      <div class="col-md-6">
+        
+           <div class="col-md-9">
+                  
+            <div class="social-section">
+             <h3> Follow us:</h3>
+               <a href="#"><i class="icon-footer fab fa-twitter fa-3x"></i></a> 
+               <a href="#"><i class="icon-footer fab fa-facebook-f fa-3x"></i></a>
+               <a href="#"><i class="icon-footer fab fa-instagram fa-3x"></i></a>
+             </div>
+            </div> 
+      </div>
+    
+ <div class="col-md-6">
+   <div class="row address-section" id="contacts" >
+     <div class="col">
+       <h3>Company </h3>
+       
+         <a href="about.html"><p class="footItem">About us</p></a>
+         <a href="#toursSection"><p class="footItem">Tours</p></a>
+         <a href="#pricing"><p class="footItem">Prices</p></a>
+       
+     </div>
+     <div class="col">
+       <h3>Address </h3>
+                  
+     <p class="footItem"> E-mail: </p>
+     <p class="footItem"> info@greentrails.com </p>
+     <p class="footItem"> Tel.: +(996)312 567 890 </p>
+      
+     </div>
+      <div class="col ">
+       <h3>Legal </h3>
+       
+       <a href="#"><p class="footItem">Terms&Conditions</p></a>  		
+       <a href="#"><p class="footItem"> Privacy policy </p></a>
+        <a href="#"><p class="footItem"> FAQ </p></a>
+      
+     </div>
+   </div>
+ </div>
+ </div>
+  </div>
+</section>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>

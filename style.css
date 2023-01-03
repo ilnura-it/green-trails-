@@ -1,0 +1,410 @@
+body {
+  background-color: rgb(250, 250, 242);
+  font-size: 14px;
+  }
+.brandName {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 32px;
+  color: #e0e19d;
+  text-shadow: -1px -1px white, 1px 1px #012c29;
+}
+nav {
+  background-color: rgb(250, 250, 242);;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+}
+
+nav a {
+  color: #056f77;
+}
+
+section{
+  margin: 0;
+  padding: 0;
+}
+
+.infoContainer {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  text-align: center;
+  font-family: 'Architects Daughter', cursive;
+  display: flex;
+  flex-direction: column;
+  }
+
+#myVideo {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.coverImage{
+  display: none;
+}
+
+.brandNameHeader{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 72px;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #e0e19d;
+  text-shadow: -1px -1px white, 1px 1px #012c29;
+}
+.mainCaption {
+  font-size: 60px;
+  margin: 20px;
+  color: rgb(250, 250, 242);;
+  text-shadow: -1px -1px white, 1px 1px #012c29;
+  font-weight: 800;
+}
+
+.mainCaptionTwo {
+  font-weight: 800;
+  font-size: 46px;
+  color: rgb(250, 250, 242);;
+  text-shadow: -1px -1px white, 1px 1px #012c29;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.infoSection {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: rgb(250, 250, 242);;
+  font-size: 26px;
+  text-align: center;
+  padding: 30px 100px;
+  line-height: 35px;
+ }
+.spanMore {
+  display: block;
+  text-decoration: rgb(250, 250, 242);;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  color: #fbfcec;
+  font-size: 28px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 15px;
+}
+.spanMore:hover {
+  color: #e0e19d;
+  text-decoration: underline;
+  text-decoration-color: #e0e19d;
+}
+.tourSection{
+   background-color: rgb(250, 250, 242);
+}
+.tours {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  color: #056f77;
+}
+.containerPhoto {
+  display: flex;
+}
+.item {
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  margin: 5px;
+  flex: 1;
+  position: relative;
+}
+h4 {
+  font-family: 'Architects Daughter', cursive;
+  background-color: rgb(250, 250, 242);;
+  color: #056f77;
+  font-size: 0;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.description {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: rgb(250, 250, 242);;
+  color: #056f77;
+  margin-right: 8px;
+}
+.price {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 0;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+  background-color: rgb(250, 250, 242);;
+  color: #056f77;
+}
+
+.clicked {
+  flex: 4;
+}
+.clicked h4 {
+  font-size: 20px;
+  transition: all 0.7s ease-in;
+}
+.clicked .description {
+  font-size: 17px;
+  transition: all 0.7s ease-in;
+}
+.clicked .price {
+  font-size: 20px;
+  transition: all 0.7s ease-in;
+  font-weight: bold;
+}
+
+.one {
+  background-image: url(images/horse-riding_tours.jpg);
+}
+.two {
+  background-image: url(images/hiking3.jpg);
+}
+.three {
+  background-image: url(images/biking_tours.jpg);
+}
+.four {
+  background-image: url(images/skiing\ tours.jpg);
+}
+.five {
+  background-image: url(images/culture_tours_2.jpg);
+}
+.six {
+  background-image: url(images/festivals.jpg);
+}
+
+.calculateSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 200px;
+  padding: 40px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Architects Daughter', cursive;
+  align-items: center;
+}
+
+#calculationHeader {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  font-weight: 800;
+  color: #056f77;;
+  align-self: center;
+}
+
+h3 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 22px;
+  font-weight: 800;
+  color: #056f77;
+  margin: 10px;
+}
+
+#tour,
+#addPeople,
+#addDays {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  font-weight: 600;
+  width: 600px;
+  background-color: rgba(136, 199, 173, 0.5);
+  padding: 10px;
+  border: none;
+  /*border: 2px solid rgb(82, 115, 77);*/
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#btnCalculate {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  background-color: #056f77;
+  color: rgb(225, 250, 200);
+  width: 58%;
+  margin: 15px;
+  border: 2px solid rgb(225, 250, 200);
+  border-radius: 4px;
+}
+#btnCalculate:hover {
+  background-color: rgba(136, 199, 173, 0.5);
+  color: #056f77;
+  border: 2px solid #056f77;
+}
+
+#showTotalAmountToPay {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#tourPrice,
+#totalTourPrice {
+  font-family: 'Architects Daughter', cursive;
+  color: #056f77;
+  font-size: 20px;
+  background-color: rgba(136, 199, 173, 0.5);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgb(250, 250, 242);;
+}
+
+#totalPrice,
+#tourPricePerPerson {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
+}
+.priceIncludes,
+.itinerary {
+  display: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  padding: 20px 20px 0;
+  color: #056f77;
+}
+span {
+  font-weight: 800;
+}
+
+.carousel {
+  margin: 40px;
+  text-align: center;
+}
+.imgCarousel {
+  width: 40%;
+  height: 400px;
+  margin: 30px;
+  padding: 10px;
+  border: 5px solid rgba(4, 104, 74, 0.8);
+  box-shadow: rgba(62, 134, 113, 0.4) 20px 20px 80px 20px inset,
+    rgba(42, 128, 99, 0.4) 18px 18px 80px 18px inset;
+    object-fit: cover;
+}
+.carousel-control-prev-icon {
+  margin-right: 80px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2352734d' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  margin-left: 80px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2352734d' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.containerFooter {
+  padding: 40px;
+  margin: 20px 0px 0px;
+  box-shadow: 0 3px 15px rgb(0 0 0 / 0.2);
+  background-color: #056f77;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  font-family: 'Architects Daughter', cursive;
+  color: rgb(250, 250, 242);;
+}
+.btnSend {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: rgb(250, 250, 242);;
+  color: #056f77;
+  margin: 20px;
+  margin-bottom: 0;
+  width: 105%;
+  border: 2px solid rgb(136, 199, 173);
+}
+label {
+  font-size: 20px;
+}
+.text-input {
+  padding: 15px;
+  background-color: rgb(250, 250, 242);;
+}
+.btnSend:hover {
+  background-color: rgba(136, 199, 173, 0.5);
+  color: rgb(250, 250, 242);;
+  border: 2px solid rgb(250, 250, 242);;
+}
+.footerSection{
+  background-color: rgb(250, 250, 242);;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footItem{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  color: #056f77;
+  font-weight: 600;
+  }
+  a{
+    text-decoration: none;
+  }
+h5{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  margin-left: 70px;
+}
+.footer-row{
+  margin-top: 20px;
+}
+.icon-footer {
+  color: #056f77;
+  font-size: 32px;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.address-section{
+  margin-top: 0px;
+ 
+}
+.col-md-6{
+  margin-top: 0;
+}
+.footerName{
+  margin-bottom: 0;
+  padding: 0;
+}
+.aboutUsSection{
+  
+  background-color: #056f77;
+  width: 100%;
+  color: rgb(250, 250, 242);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 0;
+  padding: 30px;
+}
+.aboutUsMain{
+  font-family: 'Architects Daughter', cursive;
+  color: rgb(250, 250, 242);
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 20px;
+  padding-top: 40px;
+}
+.aboutUsDescription{
+  font-family: 'Cormorant Garamond', serif;
+  color: rgb(250, 250, 242);
+  font-size: 1.3rem;
+}
+.par{
+  font-family: 'Architects Daughter', cursive;
+  color: rgb(250, 250, 242);
+  text-align: center;
+}
